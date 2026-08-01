@@ -1,8 +1,31 @@
 aid: seeing-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seeing-systems.png
 name: Seeing Systems
-description: Seeing Systems is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Seeing Systems is a Y Combinator (Winter 2026) defense technology company
+  building autonomous, modular strike drones and AI-powered swarm coordination
+  software at the intersection of artificial intelligence and robotics. Its
+  product line includes Bandit, a cost-effective FPV drone for training and
+  expendable missions with 30+ km of range; Banshee, an autonomous modular
+  platform built for contested, jamming-resistant environments with 40+ km of
+  range; and Aerie AI, swarm coordination software for multi-platform
+  operations that lowers operator cognitive load. The company works directly
+  with military and defense partners — including UK Royal Marine Commandos and
+  NATO forces — rather than publishing a public developer platform. This
+  profile is maintained in the API Evangelist network; as of the latest
+  enrichment pass Seeing Systems exposes no public API, SDK, developer portal,
+  or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/seeing-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +33,32 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-batch: W2026
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defense
+- Drones
+- Robotics
+- Artificial Intelligence
+- Unmanned Systems
+- Autonomous Systems
+- Military Technology
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/seeing-systems-domain-security.yml
+- type: Website
+  url: https://www.seeing-systems.com/
+- type: Support
+  url: https://www.seeing-systems.com/engage-with-us/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
